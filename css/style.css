@@ -1,0 +1,140 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+header {
+  width: 1024px;
+  min-height: 100px;
+  margin: 0 auto;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.headerContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #2d4d4c;
+}
+
+.navBarLink {
+  color: #2d4d4c;
+  margin-left: 30px;
+}
+
+.btn {
+  background-color: #2d4d4c;
+  color: white;
+  padding: 11px 25px;
+}
+
+/* Slogan Container 1 */
+
+.sloganContainer {
+  width: 1024px;
+  min-height: 400px;
+  margin: 0 auto 3rem auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sloganTitle h1 {
+  color: #2d4d4c;
+  font-size: 3.5rem;
+  padding-right: 1rem;
+}
+
+.sloganTitle p {
+  color: lightslategrey;
+  font-size: 1.5rem;
+  margin-bottom: 3.5rem;
+  line-height: 1.5;
+  padding-right: 1rem;
+}
+
+.titleImage {
+  width: 500px;
+  height: 500px;
+  box-sizing: border-box;
+}
+
+/* Slogan Container 2 */
+
+.sloganContainer2 {
+  width: 1024px;
+  min-height: 400px;
+  margin: 7rem auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sloganTitle2 h1 {
+  color: #2d4d4c;
+  font-size: 3rem;
+  padding-left: 4rem;
+}
+
+.sloganDescription {
+  color: lightslategrey;
+  font-size: 1rem;
+  margin-bottom: 2rem;
+  line-height: 1.5;
+  padding-left: 4rem;
+}
+
+/* rewards Container */
+.rewardsContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.workCard .propertyCount {
+  color: #2d4d4c;
+  font-size: 2rem;
+  padding-left: 4rem;
+  font-weight: bold;
+}
+
+.workCard p {
+  color: lightslategrey;
+  font-size: 1rem;
+  padding-left: 4rem;
+  margin-block: 0;
+  width: 30%;
+  line-height: 1.5;
+}
+/* Slogan Container 3 */
+
+.sloganContainer3 {
+  width: 1024px;
+  min-height: 300px;
+  margin: 0 auto;
+}
+
+.sloganTitle3 h1 {
+  color: #2d4d4c;
+  font-size: 3.5rem;
+  width: 50%;
+}
+
+/* footer Container */
+
+footer {
+  text-align: center;
+}
+
+footer h3 {
+  font-weight: lighter;
+  display: inline;
+}
+
+footer a {
+  font-weight: bold;
+  color: #2d4d4c;
+  font-size: 1.5em;
+}
